@@ -1,0 +1,74 @@
+.app__menuItem {
+    
+    display: flex;
+    
+    flex-direction: column;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.app__menuItem-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__menuItem-title {
+    flex: 1;
+}
+
+
+.app__menuItem-title p {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    width: 12rem;
+}
+
+.app__menuItem-dash {
+    width: 90px;
+    height: 1px;
+    background: var(--FAFAFA, #FAFAFA);
+    margin: 0 1rem;
+}
+
+.app__menuItem-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__menuItem-price p {
+    color: var(--FFFFFF, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.app__menuItem-tags {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.app__menuItem-tags p {
+    color: var(--AAAAAA, #AAA);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; 
+    letter-spacing: 0.64px
+}

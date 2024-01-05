@@ -1,0 +1,21 @@
+.app__subheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ 
+}
+
+.app__subheading p {
+    font-family: var(--font-base);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    color: var(--color-white);
+}
+
+.app__subheading img {
+    width: 2rem;
+    margin-bottom: 1.5rem;
+}
