@@ -1,3 +1,5 @@
 [build]
   command = "npm run build"
   publish = "build"
+[engines]
+  node = "14.x"
